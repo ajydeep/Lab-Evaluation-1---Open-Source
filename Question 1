@@ -1,0 +1,22 @@
+
+def fun1(s1,s2):
+    
+    if s1==s2:
+        print("they are exactly same")
+
+    else:
+        for i in range(len(s1)):
+            for j in range(len(s2)):
+                     if s1[i]==s2[j]:
+                         i=i+1
+                         string1.append(s1[i])
+                     else:
+                         string2.sppend(s2[j])
+                         
+s1='Refer'
+s2='Regfree'
+string1=' '
+string2= ' ' 
+
+fun1(s1,s2)
+    
