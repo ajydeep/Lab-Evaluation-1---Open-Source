@@ -1,0 +1,20 @@
+def rev(s1):
+    rev_words = s1.split( )[:: -1] 
+    print("revered order of entered string is ")
+    print(rev_words)
+
+  
+
+
+    
+
+    return (rev_words)
+
+                    
+
+s1="ViDeo SurVeiLLance SYStems"
+s2=' '
+s3=' '
+s4=' '
+
+rev(s1)
